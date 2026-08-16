@@ -3,9 +3,18 @@
         padding: 0;
         box-sizing: border-box;
 }
-body form {
+body  {
      font-family: cursive;
-  background: #f1f5f9;
+    background:  linear-gradient(90deg, #4F46E5 0%, #6366F1 50%, #F59E0B 100%);
+    background-image: linear-gradient(90deg, rgb(79, 70, 229) 0%, rgb(99, 102, 241) 50%, rgb(245, 158, 11) 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
   color: #222;
 }
 .container{
@@ -22,6 +31,9 @@ body form {
     padding: 35px;
     border-radius: 12px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+.login-box{
+    width: 450px;
 }
 .form-box h1 {
     text-align: center;
